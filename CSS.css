@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  background: url(https://cdn1.vectorstock.com/i/1000x1000/17/50/abstract-background-calculator-vector-11601750.jpg);
+  background-size: cover;
+}
+
+h1{
+  color: #48D1CC;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+#calculator {
+  width: 320px;
+  height: 487px;
+  display: block;
+  margin: 0 auto;
+  padding: 2px;
+  border: 2px solid #0000CD;
+  border-radius: 0.25rem;
+}
+
+#screen{
+  background: #F4F6F7;
+  text-align: right;
+  border: 1px solid #7FFFD4;
+}
+
+#formula{
+  background: #F4F6F7;
+  width: 300px;
+  border: 0;
+  text-align: right;
+  padding: 5px 5px;
+  min-height: 20px;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: grey;
+}
+
+#display{
+  background: #F4F6F7;
+  width: 300px;
+  border: 0;
+  text-align: right;
+  padding: 7.5px 5px;
+  font-size: 30px;
+  min-height: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: bottom;
+}
+
+button {
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 80px;
+  height: 80px;
+  color:#0000CD;
+  font-size: 20px;
+  transition-duration: 0.2s;
+  border: 1px solid #7FFFD4;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+    background: #7FFFD4;
+}
+
+.operator{ background: #EAF2F8; }
+.equals{ background: #E8F6F3; }
+.clear{ background: #F9EBEA; }
+
+footer {
+  text-decoration: none;
+  padding: 1rem;
+
+}
+small:hover{
+  font-size:20px;
+}
