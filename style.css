@@ -14,7 +14,6 @@ h1{
 
 #calculator {
   width: 320px;
-  height: 487px;
   display: block;
   margin: 0 auto;
   padding: 2px;
@@ -33,7 +32,6 @@ h1{
   width: 300px;
   border: 0;
   text-align: right;
-  padding: 5px 5px;
   min-height: 20px;
   font-size: 20px;
   font-family: 'Roboto Condensed', sans-serif;
@@ -45,7 +43,6 @@ h1{
   width: 300px;
   border: 0;
   text-align: right;
-  padding: 7.5px 5px;
   font-size: 30px;
   min-height: 30px;
   font-family: 'Roboto Condensed', sans-serif;
@@ -67,14 +64,21 @@ button:hover{
     background: #7FFFD4;
 }
 
-.operator{ background: #EAF2F8; }
-.equals{ background: #E8F6F3; }
-.clear{ background: #F9EBEA; }
+.operator{ 
+  background: #EAF2F8; 
+}
+
+.equals{ 
+  background: #E8F6F3; 
+}
+
+.clear{ 
+  background: #F9EBEA;
+ }
 
 footer {
   text-decoration: none;
   padding: 1rem;
-
 }
 small:hover{
   font-size:20px;
